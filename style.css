@@ -23,7 +23,7 @@ body {
     font-family: "Microsoft Yahei", "\5b8b\4f53", Arial, sans-serif;
     font-size: 16px;
     line-height: 1.7;
-    background: #e0e0e0;
+    background: #fff;
 }
 
 a {
@@ -118,7 +118,8 @@ section {
 }
 
 section:before {
-    content: "\273d";
+    content: "";
+	border:1px solid #ececec;
     text-align: center;
     line-height: 1;
     position: absolute;
